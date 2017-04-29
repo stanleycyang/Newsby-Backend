@@ -11,8 +11,18 @@ app.get('/', (request, response) => {
 });
 
 app.get('/jake', (req, res) => {
-  res.status(200).json({
+  res.status(403).json({
     name: 'Jake',
+    job: 'Automation Engineer',
+    age: 25,
+    height: '6ft'
+  });
+});
+
+app.get('/stanley', (req, res) => {
+  res.status(403).json({
+    name: 'Jake',
+    job: 'Automation Engineer',
     age: 25,
     height: '6ft'
   });
