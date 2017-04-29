@@ -1,0 +1,25 @@
+{
+  "name": "Newsby-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanleycyang/Newsby-Backend.git"
+  },
+  "keywords": [],
+  "author": "Stanley C Yang <stanley@stanleycyang.com> (http://www.stanleycyang.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanleycyang/Newsby-Backend/issues"
+  },
+  "homepage": "https://github.com/stanleycyang/Newsby-Backend#readme"
+}

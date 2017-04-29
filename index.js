@@ -1,15 +1,22 @@
+'use strict';
+
 const express = require('express')
 const app = express()
+
+// port number
 const port = 3000
 
 app.get('/', (request, response) => {
   response.send('Hello from Express!')
-})
+});
 
-app.listen(port, (err) => {
-  if (err) {
-    return console.log('something bad happened', err)
-  }
+app.get('/jake', (req, res) => {
+  res.status(200).json({
+    name: 'Jake',
+    age: 25,
+    height: '6ft'
+  });
+});
 
-  console.log(`server is listening on ${port}`)
-})
+// listen on the port
+app.listen(port);
