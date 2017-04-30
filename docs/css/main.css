@@ -20,9 +20,15 @@ html, body {
   cursor: pointer;
 }
 
+.logo {
+  font-family: 'Monoton', cursive;
+  color: #FF0000;
+}
+
 .img-btn {
-  max-width: 350px;
-  width: 48%;
+  min-width: 150px;
+  max-width: 250px;
+  width: 25%;
 }
 
 .marg-bottom-lg {
@@ -31,6 +37,10 @@ html, body {
 
 .marg-top-xs {
   margin-top: 10px;
+}
+
+.marg-tb-xs {
+  margin: 10px 0;
 }
 
 .pad-tb-md {
@@ -47,4 +57,8 @@ html, body {
 
 .pad-bottom-sm {
   padding-bottom: 30px;
+}
+
+.text-sm {
+  font-size: 0.8rem;
 }

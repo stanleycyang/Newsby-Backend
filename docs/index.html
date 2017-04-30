@@ -8,7 +8,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="icon" href="imgs/favicon.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Monoton" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!--Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -22,20 +24,33 @@
     <section class='container'>
       <section class='col-md-6'>
         <div class='page-content'>
-          <h1 class='pad-bottom-sm'>Newsby</h1>
+          <h1 class='pad-bottom-sm logo'>
+            Newsby
+          </h1>
           <p>
             <strong>Your amazing, intellectual friend that sends amazing political insights straight to your email every single morning.</strong>
           </p>
 
           <small class='text-muted'>sign up today and join our scholarly circle</small>
-          <form class='pad-bottom-sm'>
-            <div class='input-group marg-top-xs'>
-              <input type="email" class='form-control' placeholder='Enter your email address..' />
+
+          <!-- Begin MailChimp Signup Form -->
+          <form action="https://apple.us15.list-manage.com/subscribe/post?u=fe3149d753470cdd803725aad&amp;id=f93581ed93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate>
+            <div class="input-group marg-tb-xs">
+              <input class='form-control' type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder='Enter your email address' />
               <span class='input-group-btn'>
-                <button class='btn btn-primary pointer' type='button'>Go!</button>
+                <button class='btn btn-primary pointer button' type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                  <i class='fa fa-chevron-right'></i>
+                </button>
               </span>
             </div>
+            <div id="mce-responses" class="clear">
+              <div class="response text-sm alert alert-danger" id="mce-error-response" style="display:none"></div>
+              <div class="response text-sm alert alert-success" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fe3149d753470cdd803725aad_f93581ed93" tabindex="-1" value=""></div>
           </form>
+          <!--End mc_embed_signup-->
 
           <row>
             <a target='_blank' href="https://itunes.apple.com/us/app/newsby/id1179241605?mt=8">
@@ -53,8 +68,10 @@
   </main>
 
   <!--Import scripts -->
+    <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 </body>
 </html>
